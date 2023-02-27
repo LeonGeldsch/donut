@@ -14,8 +14,8 @@ export default function Three() {
 					position: [-6, 7, 7],
 				}}
 			>
-				<ambientLight color={'white'} intensity={1.1} />
-				<LightBulb position={[20, 20, 20]} />
+				<ambientLight color={'white'} intensity={0.2} />
+				<LightBulb position={[20, 20, 20]} intensity={2} />
 				<Donut />
 				<Controls />
 				<Environment preset="forest" background={true} blur={0.3} />
